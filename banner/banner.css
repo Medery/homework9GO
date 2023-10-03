@@ -1,0 +1,42 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: flex-start;
+    width: 1180px;
+    height: 823px;
+    position: relative;
+  }
+  
+  .banner__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    z-index: 1; 
+  }
+  
+  .banner__main-title {
+    font-size: 150px;
+    font-weight: 900;
+  }
+  
+  .banner__sub-title {
+    font-size: 20px;
+  }
+  
+  .banner__main-title, .banner__sub-title {
+    margin: 0;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .banner__image {
+    width: 675px;  
+    height: 762px; 
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+  }
+  

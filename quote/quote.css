@@ -1,0 +1,18 @@
+.quote p:first-of-type {
+    text-transform: uppercase;
+    font-size: 3vw;
+}
+  
+.quote::before,
+.quote::after {
+    content: '"';
+    color: #6C0287;
+    font-weight: 900;
+  }
+  
+.main-person {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;;
+}
